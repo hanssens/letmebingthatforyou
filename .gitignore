@@ -96,6 +96,23 @@ DocProject/Help/html
 # Click-Once directory
 publish
 
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+
+# NuGet Packages Directory
+packages/
+
+# Allow NuGet.exe (do not ignore)
+!NuGet.exe
+
+# Windows Azure Build Output
+csx
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
 # Others
 [Bb]in
 [Oo]bj
